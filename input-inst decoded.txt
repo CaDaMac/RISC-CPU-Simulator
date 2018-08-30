@@ -1,0 +1,17 @@
+*****This is the file showing the decoded instructioned in the input.txt file*****
+*****Cannot use this file as the input file to your simulator for testing*********
+
+REGISTERS
+R1 16
+R3 42
+R5 8
+MEMORY
+8 40
+16 60
+CODE
+      LW R2, 0(R1)
+      ADD R4, R2, R3
+      SW R4, 0(R1)
+      BNE R0, R4, NEXT
+      ADDI R1, R2, -9
+NEXT: ADD R1, R1, R3
