@@ -4,6 +4,8 @@ This program is designed to simulate a MIPS CPU in a realistic fashion.
 
 This CPU takes assembler instructions and initial register/memory values, decodes them, executes them, modifies memory and registers as necessary, then prints out the final memory/register values and the pipeline stages. 
 
+Details of the project constraints can be found in "Course Project - Pipelined Processor.docx". These include the constraints and requirements given to us by our professor. 
+
 
 Features of this simulator: 
 
@@ -35,7 +37,7 @@ Supported MIPS instructions:
 
 Input file explanation: 
 
-Registers are written first. R1,R3,R5 are register labels with their values to the right of them
+Registers are written first. R1, R3, R5 are register labels with their values to the right of them
 Memory is written next. 8, 16 are addresses with their values to the right of them
 Assembler code is written next. "input-inst decoded.txt" has these instructions converted to assemble
 
