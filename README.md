@@ -7,7 +7,7 @@ This CPU takes assembler instructions and initial register/memory values, decode
 Details of the project constraints can be found in "Course Project - Pipelined Processor.docx". These include the constraints and requirements given to us by our professor. 
 
 
-#Features of this simulator: 
+Features of this simulator: 
 
 -Data/ Control hazard detection and compensation. 
 
